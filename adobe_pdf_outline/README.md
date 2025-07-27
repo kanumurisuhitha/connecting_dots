@@ -75,27 +75,6 @@ docker build --platform linux/amd64 -t pdf_insight_engine:dev .
 docker run --rm   -v "${PWD}/input:/app/input"   -v "${PWD}/output:/app/output"   --network none   pdf_insight_engine:dev
 ```
 
-
-## 🧠 Models Used
-
-- **Model:** `all-MiniLM-L6-v2` (pre-downloaded and stored in `cached_model`)
-- **Size:** ~90MB (meets Adobe constraint)
-- **Inference:** CPU-only, fast and lightweight
-
----
-
-## ✅ Constraints Met
-
-| Constraint                | Status       |
-|---------------------------|--------------|
-| ≤ 10s for 50-page PDF     | ✅ Met        |
-| ≤ 200MB model size        | ✅ Met (90MB) |
-| Works without internet    | ✅ Offline    |
-| Docker AMD64 compatible   | ✅ Supported  |
-| CPU-based execution       | ✅ Enforced   |
-
----
-
 ## 📜 License
 
 MIT License. For academic and evaluation use.
