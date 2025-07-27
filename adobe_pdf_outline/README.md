@@ -1,7 +1,7 @@
 
 # Connecting the Dots - PDF Insight Engine 🧠📄
 
-Welcome to our solution for Adobe's **Connecting the Dots Challenge**. This project reimagines the PDF as an intelligent, interactive experience—helping machines and users understand documents better by extracting structure and meaning.
+Solution for Adobe's **Connecting the Dots Challenge**. This project reimagines the PDF as an intelligent, interactive experience—helping machines and users understand documents better by extracting structure and meaning.
 
 ---
 
@@ -75,26 +75,6 @@ docker build --platform linux/amd64 -t pdf_insight_engine:dev .
 docker run --rm   -v "${PWD}/input:/app/input"   -v "${PWD}/output:/app/output"   --network none   pdf_insight_engine:dev
 ```
 
----
-
-## 📁 Folder Structure
-
-```
-.
-├── Dockerfile
-├── README.md
-├── src/
-│   ├── engine.py        # Main insight extraction script (Round 1B)
-│   └── outline.py       # Structured heading extractor (Round 1A)
-├── input/
-│   ├── persona.json
-│   └── *.pdf
-└── output/
-    ├── persona_output.json
-    └── *.json (for Round 1A output)
-```
-
----
 
 ## 🧠 Models Used
 
