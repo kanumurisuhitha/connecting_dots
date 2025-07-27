@@ -1,0 +1,71 @@
+{
+  "metadata": {
+    "input_documents": [
+      "doc1.pdf",
+      "doc2.pdf",
+      "doc3.pdf"
+    ],
+    "persona": "PhD Researcher in Biology",
+    "job": "Summarize recent techniques in gene editing",
+    "timestamp": "2025-07-27T13:06:49.197713"
+  },
+  "extracted_sections": [
+    {
+      "document": "doc1.pdf",
+      "page": 1,
+      "section_title": "doc1.pdf - Pg 1: LEADERSHIP & ACTIVITIES\n\u2022 Core member, Google Developers Clu...",
+      "importance_rank": 1
+    },
+    {
+      "document": "doc2.pdf",
+      "page": 16,
+      "section_title": "doc2.pdf - Pg 16: video-recorded interviews. Retrieved from https://www.biospa...",
+      "importance_rank": 2
+    },
+    {
+      "document": "doc3.pdf",
+      "page": 2,
+      "section_title": "doc3.pdf - Pg 2: 101\nSet <Character > cell = new HashSet <>();...",
+      "importance_rank": 3
+    },
+    {
+      "document": "doc2.pdf",
+      "page": 17,
+      "section_title": "doc2.pdf - Pg 17: Levashina, J., Hartwell, C. J., Morgeson, F. P., & Campion, ...",
+      "importance_rank": 4
+    },
+    {
+      "document": "doc2.pdf",
+      "page": 1,
+      "section_title": "doc2.pdf - Pg 1: Section: Student Experience \nEditor-in-Chief: Dr Joseph Craw...",
+      "importance_rank": 5
+    }
+  ],
+  "subsection_analysis": [
+    {
+      "document": "doc1.pdf",
+      "page": 1,
+      "refined_text": "LEADERSHIP & ACTIVITIES\n\u2022 Core member, Google Developers Club \u2013 Led workshops, encouraged tech innovations.\n\u2022 Organized Python sessions, coding marathons, and technical debates on campus."
+    },
+    {
+      "document": "doc2.pdf",
+      "page": 16,
+      "refined_text": "video-recorded interviews. Retrieved from https://www.biospace.com/article/ways-to-\nprepare-for-an-interview-rehearsed-mock-and-video-recorded-interviews-/"
+    },
+    {
+      "document": "doc3.pdf",
+      "page": 2,
+      "refined_text": "101\nSet <Character > cell = new HashSet <>();"
+    },
+    {
+      "document": "doc2.pdf",
+      "page": 17,
+      "refined_text": "Levashina, J., Hartwell, C. J., Morgeson, F. P., & Campion, M. A. (2014). The structured"
+    },
+    {
+      "document": "doc2.pdf",
+      "page": 1,
+      "refined_text": "Section: Student Experience \nEditor-in-Chief: Dr Joseph Crawford \nSenior Editor: Dr Sally Ashton-Hay"
+    }
+  ]
+}
